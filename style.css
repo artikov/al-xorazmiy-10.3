@@ -1,0 +1,132 @@
+/* 
+#F9F7F7
+#DBE2EF
+#3F72AF
+#112D4E 
+*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#DBE2EF ;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1340px;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    list-style-type: none;
+}
+nav ul a {
+    text-decoration: none;
+    color: #F9f7f7;
+}
+nav {
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: #112D4E ;
+}
+main {
+    display: flex;
+    flex-wrap: wrap; /* news-container */
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+}
+h1 {
+    font-size: 4rem;
+    color: #112D4E;
+}
+h3 {
+    font-size: 2rem;
+    color: #3F72AF
+}
+.main-left {
+    text-align: center;
+}
+.main-right img {
+    border-radius: 20px;
+}
+hr {
+    width: 50%;
+    border: 1px solid #112D4E;
+    margin: 4rem auto;
+}
+h2 {
+    color: #112d4e;
+    font-size: 2.5rem;
+}
+p {
+    color:#3F72AF;
+    font-size: 1.2rem;
+}
+#about {
+    text-align: center;
+    padding: 2rem;
+}
+#news {
+    text-align: center;
+}
+.news-container div {
+    background-color: #112D4E;
+    color:#DBE2EF;
+    padding: 1rem;
+    border-radius: 20px;
+}
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+}
+.news-container button {
+    padding:0.5rem 1rem;
+    border: none;
+    background-color: #3F72AF;
+    color:#DBE2EF;
+    border-radius: 20px;
+    width: 100%;
+}
+.news-container img {
+    border-radius: 20px;   
+}
+#contact {
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    gap: 1rem;
+    border: 4px dashed #112D4E;
+    border-radius: 20px;
+    padding: 2rem;
+    color:#112D4E;
+}
+input, textarea {
+    padding: 1rem;
+    border: 1px solid #112D4E;
+    border-radius: 20px;
+}
+input[type="submit"] {
+    background-color: #3F72AF;
+    color: #DBE2EF;
+}
+footer {
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    padding: 2rem;
+    background-color: #112D4E;  
+}
+footer p {
+    color: #DBE2EF;
+}
+a:visited {
+    color:#3F72AF;
+}
